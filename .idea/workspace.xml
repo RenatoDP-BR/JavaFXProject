@@ -7,8 +7,6 @@
     <list default="true" id="25d02874-02ce-4539-9809-b5d435a45ec5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/helloworld/HelloApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/helloworld/HelloApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +100,32 @@
       <option name="project" value="LOCAL" />
       <updated>1678474874139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tentando acessar os elementos da tela">
+      <created>1678482537458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678482537460</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1a versão - somente o hello world" />
     <MESSAGE value="Foi criada uma pequena tela de simulação de um calculo matematico de soma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Foi criada uma pequena tela de simulação de um calculo matematico de soma" />
+    <MESSAGE value="tentando acessar os elementos da tela" />
+    <option name="LAST_COMMIT_MESSAGE" value="tentando acessar os elementos da tela" />
   </component>
 </project>

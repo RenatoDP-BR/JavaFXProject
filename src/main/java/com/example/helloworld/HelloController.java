@@ -1,35 +1,28 @@
 package com.example.helloworld;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import java.io.File;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
 
 public class HelloController {
 
     @FXML
-    private Label welcomeText;
-
-    @FXML
     protected void onHelloButtonClick() {
       try {
-        //Crie um objeto File para representar o arquivo FXML
-        File file = new File("hello-view.fxml");
+          // Carrega o arquivo FXML e cria a cena correspondente
+          FXMLLoader loader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
+          VBox root = loader.load();
 
-        //Crie um objeto DocumentBuilderFactory e configure-o para criar um DocumentBuilder
-        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+          // Acessa os objetos TextField com ID "txValor1" e "txValor2"
+          TextField txValor1 = (TextField) loader.getNamespace().get("txValor1");
+          TextField txValor2 = (TextField) loader.getNamespace().get("txValor2");
 
-        //Use o DocumentBuilder para analisar o arquivo FXML e criar um objeto Document
-        Document doc = dBuilder.parse(file);
-        doc.getDocumentElement().normalize();
-
-        //Agora você pode usar o objeto Document para acessar e manipular os elementos do arquivo FXML
-        Element root = doc.getDocumentElement();
-        welcomeText.setText(root.getNodeName());
+          String strCampo1 = txValor1.getText();
+          String strCampo2 = txValor2.getText();
+          System.out.println("Valor do 1o campo editado: " + strCampo1);
+          System.out.println("Valor do 2o campo editado: " + strCampo1);
 
       } catch (Exception e) {
           e.printStackTrace();
