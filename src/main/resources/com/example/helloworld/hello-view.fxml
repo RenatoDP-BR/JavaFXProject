@@ -5,12 +5,21 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.helloworld.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
+    <Label fx:id="lblTxValor1" layoutX="05.0" layoutY="44.0"  prefHeight="21.0" prefWidth="264.0"
+           text="Digite o 1o valor:" />
+    <TextField layoutX="06.0" layoutY="44.0" prefWidth="200.0" fx:id="txValor1"/>
+    <Label fx:id="lblTxOperacao" layoutX="07.0" layoutY="44.0"  prefHeight="21.0" prefWidth="264.0"
+           text=" + " />
+    <Label fx:id="lblTxValor2" layoutX="08.0" layoutY="44.0"  prefHeight="21.0" prefWidth="264.0"
+           text="Digite o 2o valor:" />
+    <TextField layoutX="09.0" layoutY="44.0" prefWidth="200.0" fx:id="txValor2"/>
 
     <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+    <Button text="Resultado" onAction="#onHelloButtonClick"/>
 </VBox>

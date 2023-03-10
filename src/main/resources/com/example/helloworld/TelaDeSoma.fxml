@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0"
+      fx:controller="com.example.helloworld.HelloController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="28.0" layoutY="29.0" text="Calculadora" />
+      <TextField layoutX="78.0" layoutY="65.0" />
+      <Label layoutX="28.0" layoutY="69.0" prefHeight="17.0" prefWidth="50.0" text="Valor (1)" />
+      <Label layoutX="341.0" layoutY="69.0" prefHeight="17.0" prefWidth="50.0" text="Valor (2)" />
+      <TextField layoutX="391.0" layoutY="65.0" />
+      <Label layoutX="272.0" layoutY="69.0" text=" +" />
+      <Button layoutX="258.0" layoutY="120.0" mnemonicParsing="false" text="Calcular"
+              onAction="#onHelloButtonClick"/>
+   </children>
+</Pane>
+</VBox>
