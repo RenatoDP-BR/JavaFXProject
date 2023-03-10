@@ -22,7 +22,7 @@ public class HelloController {
           String strCampo1 = txValor1.getText();
           String strCampo2 = txValor2.getText();
           System.out.println("Valor do 1o campo editado: " + strCampo1);
-          System.out.println("Valor do 2o campo editado: " + strCampo1);
+          System.out.println("Valor do 2o campo editado: " + strCampo2);
 
       } catch (Exception e) {
           e.printStackTrace();

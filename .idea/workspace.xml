@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678482537460</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tentando resolver o porque o valor não aparece no println">
+      <created>1678489033748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678489033748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +133,7 @@
     <MESSAGE value="1a versão - somente o hello world" />
     <MESSAGE value="Foi criada uma pequena tela de simulação de um calculo matematico de soma" />
     <MESSAGE value="tentando acessar os elementos da tela" />
-    <option name="LAST_COMMIT_MESSAGE" value="tentando acessar os elementos da tela" />
+    <MESSAGE value="Tentando resolver o porque o valor não aparece no println" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tentando resolver o porque o valor não aparece no println" />
   </component>
 </project>
